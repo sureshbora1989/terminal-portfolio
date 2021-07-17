@@ -1,8 +1,20 @@
 import React from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { MainScreen } from "./screens/index";
+//import MainScreen from "./screens/MainScreen";
 
 function App() {
-  return <View></View>;
+  return (
+    <View style={styles.container}>
+      <MainScreen />
+    </View>
+  );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+});
 
 export default App;
