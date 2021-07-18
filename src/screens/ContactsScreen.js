@@ -2,10 +2,10 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { bgDarkBlue } from "../theme/index";
 
-const MainScreen = () => {
+const ContactScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.contentColor}>Hi I am Main Screen</Text>
+      <Text style={styles.contentColor}>Hi I am ContactScreen</Text>
     </View>
   );
 };
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
     color: "white"
   }
 });
-export default MainScreen;
+export default ContactScreen;

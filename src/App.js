@@ -1,12 +1,11 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { MainScreen } from "./screens/index";
-//import MainScreen from "./screens/MainScreen";
+import AppContainer from "./AppContainer";
 
 function App() {
   return (
     <View style={styles.container}>
-      <MainScreen />
+      <AppContainer />
     </View>
   );
 }
